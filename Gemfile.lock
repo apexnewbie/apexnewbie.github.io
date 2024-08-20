@@ -76,6 +76,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (~> 4.2)
   moonwalk!
 
 BUNDLED WITH
