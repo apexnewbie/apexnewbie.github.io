@@ -53,3 +53,6 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
+
+
+google_analytics: G-MJC51G2472
