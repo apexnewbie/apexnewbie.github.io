@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Aki
-tags: [CN]
+tags: [CN, バグ]
 ---
 
 ## Table of contents
