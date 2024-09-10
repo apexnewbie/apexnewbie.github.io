@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Aki
-tags: [Spring Boot, バグ]
+tags: [Springboot, バグ]
 ---
 
 ## Table of contents
