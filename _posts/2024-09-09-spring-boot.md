@@ -53,7 +53,7 @@ tags: [Springboot, バグ]
 - 删除一本书：  
   **DELETE** `https://api.example.com/books/1`
 
-## Springboot `@RestController` VS `@Controller`
+#### Springboot `@RestController` VS `@Controller`
 
 
 | 特性                   | @Controller                        | @RestController                  |
