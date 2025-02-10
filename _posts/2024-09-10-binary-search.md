@@ -15,8 +15,8 @@ tags: [Array, バグ]
 4. 比较中间元素: 将目标元素 `target` 与中间元素 `nums[mid]` 进行比较
 
     - 如果 target == nums[mid]，说明找到 target，因此返回中间元素的下标位置 mid。
-    - 如果 target < nums[mid]，说明目标元素在左半部分[left,mid-1]，更新右边界为中间元素的前一个位置，即 right = mid -1。
-    - 如果 target > nums[mid]，说明目标元素在右半部分[mid+1,right]，更新左边界为中间元素的后一个位置，即 left = mid +1。
+    - 如果 target < nums[mid]，说明目标元素在左半部分[left,mid-1]，更新右边界为中间元素的前一个位置，即 **right = mid -1**。
+    - 如果 target > nums[mid]，说明目标元素在右半部分[mid+1,right]，更新左边界为中间元素的后一个位置，即 **left = mid +1**。
 
 5. 重复步骤3~4，直到找到目标元素时返回中间元素下标位置，或者查找范围缩小为空(左边界大于右边界)，表示目标元素不存在，此时返回 -1。
 
